@@ -1369,6 +1369,7 @@ header .circle {
 .bubble img:nth-child(8) {
   animation-delay: 4.5s;
 }
+
 .bubble img:nth-child(9) {
   animation-delay: 6s;
 }
@@ -1380,6 +1381,7 @@ header .circle {
 .bubble img:nth-child(11) {
   animation-delay: 1.5s;
 }
+
 .bubble img:nth-child(12) {
   animation-delay: 2s;
 }
@@ -1391,6 +1393,7 @@ header .circle {
 .bubble img:nth-child(14) {
   animation-delay: 3.5s;
 }
+
 .bubble img:nth-child(15) {
   animation-delay: 2s;
 }
@@ -2276,6 +2279,14 @@ header .circle {
     z-index: 1;
   }
 
+  .stories .content {
+    text-align: center;
+    padding-top: 6rem;
+    margin: 2rem auto;
+    max-width: 60rem;
+  }
+
+
 }
 
 @media (max-width: 560px) {
@@ -2331,13 +2342,26 @@ header .circle {
 
   .card-2 video {
     position: relative;
-    width: 50%;
-    height: 35%;
-    left: 4%;
+    width: 40%;
+    height: 40%;
+    left: 9%;
     grid-column: 1/2;
     grid-row: 1/2;
     z-index: 1;
   }
+
+  .style-cards h1 {
+    font-size: 0.7rem;
+    max-width: 40px;
+  }
+
+  .stories .content {
+    text-align: center;
+    padding-top: 6rem;
+    margin: 2rem auto;
+    max-width: 35rem;
+  }
+
 
   .contact {
     padding: 8rem 0 5rem 0;
@@ -2354,6 +2378,11 @@ header .circle {
 
   .contact:before {
     background-size: 200%;
+  }
+
+  .bubble img {
+    max-width: 25px;
+    animation: bubble 7s linear infinite;
   }
 
   .contact-form .row {
