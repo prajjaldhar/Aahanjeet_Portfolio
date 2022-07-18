@@ -2351,15 +2351,15 @@ header .circle {
   }
 
   .style-cards h1 {
-    font-size: 0.7rem;
-    max-width: 40px;
+    font-size: 0.6rem;
+    max-width: 26px;
   }
 
   .stories .content {
     text-align: center;
     padding-top: 6rem;
     margin: 2rem auto;
-    max-width: 35rem;
+    max-width: 26rem;
   }
 
 
@@ -2395,5 +2395,12 @@ header .circle {
     margin: 0.25rem 0;
   }
 }
+
+@media (max-width: 450px)
+{
+  .stories .content {
+    max-width: 25rem;
+  }
+} 
 
 /* End Responsive */
