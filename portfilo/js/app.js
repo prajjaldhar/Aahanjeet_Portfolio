@@ -100,7 +100,7 @@ var mySwiper = new Swiper(".swiper-container", {
   },
 });
 
-var swiper = new Swiper(".home-slider", {
+var swiper = new swiper(".home-slider", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
